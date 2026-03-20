@@ -5,7 +5,6 @@ from sklearn.ensemble import RandomForestClassifier
 from ml.model import train_model, compute_model_metrics, inference
 
 
-# TODO: implement the first test. Change the function name and input as needed
 def test_train_model():
     """
     Test that the train_model returns a Random Forest Classifier that 
@@ -17,7 +16,6 @@ def test_train_model():
     assert isinstance(model, RandomForestClassifier)
 
 
-# TODO: implement the second test. Change the function name and input as needed
 def test_compute_model_metrics():
     """
     Test that the compute_model_metrics returns precision, recall, and fbeta
@@ -31,8 +29,6 @@ def test_compute_model_metrics():
     assert 0 <= fbeta <= 1
    
 
-
-# TODO: implement the third test. Change the function name and input as needed
 def test_inference():
     """
    Test that inference returns predictions as a numpy array 
